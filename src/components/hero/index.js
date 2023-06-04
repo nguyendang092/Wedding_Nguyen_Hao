@@ -28,7 +28,7 @@ class SimpleSlider extends Component {
                           <h2>Save Our Date</h2>
                         </div>
                         <div className="slide-text">
-                          <p>25 June 2023</p>
+                          <p>Bride’s family - 25 June 2023 || Groom’s family - 8 July 2023</p>
                         </div>
                               
                   </div>
@@ -45,7 +45,7 @@ class SimpleSlider extends Component {
                               <h2>Save Our Date</h2>
                           </div>
                           <div className="slide-text">
-                              <p>25 June 2023</p>
+                          <p>Bride’s family - 25 June 2023 || Groom’s family - 8 July 2023</p>
                           </div>
                       </div>
                     </div>

@@ -105,6 +105,7 @@
 .slide-text p {
     color: #fff;
     margin-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 @media(max-width:767px){
