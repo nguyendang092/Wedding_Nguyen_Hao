@@ -11,13 +11,13 @@ const PreviewHero = () => {
             <div className="container">
                   <div className="slide-content">
                       <div className="slide-subtitle">
-                          <h4>WERE GETTING MARRIED</h4>
+                          <h4>HAPPY MY WEDDING</h4>
                       </div>
                       <div className="slide-title">
                           <h2>Save Our Date</h2>
                       </div>
                       <div className="slide-text">
-                          <p>25 December 2019</p>
+                          <p>25 June 2023</p>
                       </div>
                   </div>
               </div>
