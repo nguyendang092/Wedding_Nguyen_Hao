@@ -23,6 +23,7 @@ person-area
 .person-img {
     position: relative;
     overflow: hidden;
+    background-size: auto;
 }
 
 .person-img img {
@@ -61,12 +62,15 @@ person-area
 .person-wrap:hover .social-list {
     opacity: 1;
 }
-
+.person-wrap:hover .social-list ul {
+    opacity: 1;
+}
 .social-list ul {
     display: flex;
     justify-content: center;
-    background: rgba(94, 154, 142, .6);
+    background: -webkit-linear-gradient( rgba(237,123,132,0.7) ,rgba(144,85,255,0.7));
     z-index: 1;
+    mix-blend-mode: hard-light;
 }
 
 .social-list ul li {
@@ -77,10 +81,12 @@ person-area
     margin: 10px;
     border-radius: 100%;
     z-index: -1;
+    opacity: 1;
 }
 
 .social-list ul li a {
     color: #fff;
+    opacity: 1;
 }
 
 .person-content {
