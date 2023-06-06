@@ -22,13 +22,7 @@
   text-align: center;
 }
 
-.content-sub {
-  padding: 50px 80px;
-  background: -webkit-linear-gradient( #ED7B84 ,#9055FF);
-  display: inline-block;
-  z-index: 99;
-  position: relative;
-}
+
 
 .content-sub:before {
   position: absolute;

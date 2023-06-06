@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import ReactFancyBox from 'react-fancybox';
-
 import Sectiontitle from '../section-title'
 import './style.css'
+import 'react-fancybox/lib/fancybox.css';
 
 import galimg1 from '../../images/gal/gal_5_600x746.jpg'
 import galimg2 from '../../images/gal/gal_4_600x746.jpg'
@@ -21,7 +21,7 @@ class Gallery extends Component {
                   <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                       <div className="gallery-img">
                         <ReactFancyBox
-                            thumbnail={galimg1}
+                        thumbnail={galimg1}
                             image={galimg1}/>
                       </div>
                   </div>
