@@ -8,11 +8,13 @@ import bride2 from '../../images/groomsmen-bridesmaid/2.jpg'
 import bride3 from '../../images/groomsmen-bridesmaid/3.jpg'
 import bride4 from '../../images/groomsmen-bridesmaid/4.jpg'
 import bride5 from '../../images/groomsmen-bridesmaid/5.jpg'
-import bride6 from '../../images/groomsmen-bridesmaid/7.jpg'
-import bride7 from '../../images/groomsmen-bridesmaid/6.jpg'
-import bride8 from '../../images/groomsmen-bridesmaid/8.jpg'
-import bride9 from '../../images/groomsmen-bridesmaid/9.jpg'
-import bride10 from '../../images/groomsmen-bridesmaid/10.jpg'
+import bride6 from '../../images/groomsmen-bridesmaid/6.jpg'
+import bride7 from '../../images/groomsmen-bridesmaid/NgocLinh_600x600.jpg'
+import bride8 from '../../images/groomsmen-bridesmaid/BichTram_600x600.jpg'
+import bride9 from '../../images/groomsmen-bridesmaid/NhuY_600x600.jpg'
+import bride10 from '../../images/groomsmen-bridesmaid/Trang_600x600.jpg'
+import bride11 from '../../images/groomsmen-bridesmaid/Tram_600x600.jpg'
+import bride12 from '../../images/groomsmen-bridesmaid/YenNhi_600x600.jpg'
 
 import './style.css'
 
@@ -169,42 +171,6 @@ const People = (props) => {
                                     <div className="col-lg-4 col-md-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src={bride5} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fab fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fab fa-instagram"></i></Link></li>
-                                                        <li><Link to="/"><i className="fab fa-tiktok"></i></Link></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="person-content">
-                                                <h3>Mr Abraham</h3>
-                                                <span>Best Friend</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 col-md-6">
-                                        <div className="person-wrap">
-                                            <div className="person-img">
-                                                <img src={bride6} alt=""/>
-                                                <div className="social-list">
-                                                    <ul>
-                                                        <li><Link to="/"><i className="fab fa-facebook-f"></i></Link></li>
-                                                        <li><Link to="/"><i className="fab fa-instagram"></i></Link></li>
-                                                        <li><Link to="/"><i className="fab fa-tiktok"></i></Link></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="person-content">
-                                                <h3>Rohan Mithy</h3>
-                                                <span>Brother</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 col-md-6">
-                                        <div className="person-wrap">
-                                            <div className="person-img">
                                                 <img src={bride7} alt=""/>
                                                 <div className="social-list">
                                                     <ul>
@@ -215,7 +181,7 @@ const People = (props) => {
                                                 </div>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Lily Brown</h3>
+                                                <h3>Phạm Thị Ngọc Linh</h3>
                                                 <span>Sister</span>
                                             </div>
                                         </div>
@@ -233,8 +199,8 @@ const People = (props) => {
                                                 </div>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Mr Abraham</h3>
-                                                <span>Best Friend</span>
+                                                <h3>Đặng Thị Bích Trâm</h3>
+                                                <span>Younger Sister</span>
                                             </div>
                                         </div>
                                     </div>
@@ -244,15 +210,15 @@ const People = (props) => {
                                                 <img src={bride9} alt=""/>
                                                 <div className="social-list">
                                                     <ul>
-                                                        <li><Link to="/"><i className="fab fa-facebook-f"></i></Link></li>
+                                                    <li><a href='https://www.facebook.com/profile.php?id=100021515796457' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook"></i></a></li>
                                                         <li><Link to="/"><i className="fab fa-instagram"></i></Link></li>
                                                         <li><Link to="/"><i className="fab fa-tiktok"></i></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Rohan Mithy</h3>
-                                                <span>Brother</span>
+                                                <h3>Lê Thị Như Ý</h3>
+                                                <span>Younger Sister</span>
                                             </div>
                                         </div>
                                     </div>
@@ -262,15 +228,51 @@ const People = (props) => {
                                                 <img src={bride10} alt=""/>
                                                 <div className="social-list">
                                                     <ul>
-                                                        <li><Link to="/"><i className="fab fa-facebook-f"></i></Link></li>
+                                                    <li><a href='https://www.facebook.com/profile.php?id=100042029072798' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook"></i></a></li>
                                                         <li><Link to="/"><i className="fab fa-instagram"></i></Link></li>
                                                         <li><Link to="/"><i className="fab fa-tiktok"></i></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Lily Brown</h3>
-                                                <span>Sister</span>
+                                                <h3>Phạm Thị Thiên Trang</h3>
+                                                <span>Younger Sister</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6">
+                                        <div className="person-wrap">
+                                            <div className="person-img">
+                                                <img src={bride11} alt=""/>
+                                                <div className="social-list">
+                                                    <ul>
+                                                    <li><a href='https://www.facebook.com/profile.php?id=100015721696643' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook"></i></a></li>
+                                                        <li><Link to="/"><i className="fab fa-instagram"></i></Link></li>
+                                                        <li><Link to="/"><i className="fab fa-tiktok"></i></Link></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div className="person-content">
+                                                <h3>Hà Thị Thùy Trâm</h3>
+                                                <span>Younger Sister</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6">
+                                        <div className="person-wrap">
+                                            <div className="person-img">
+                                                <img src={bride12} alt=""/>
+                                                <div className="social-list">
+                                                    <ul>
+                                                    <li><a href='https://www.facebook.com/profile.php?id=100081597424063' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook"></i></a></li>
+                                                        <li><Link to="/"><i className="fab fa-instagram"></i></Link></li>
+                                                        <li><Link to="/"><i className="fab fa-tiktok"></i></Link></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div className="person-content">
+                                                <h3>Nguyễn Thị Yến Nhi</h3>
+                                                <span>Younger Sister</span>
                                             </div>
                                         </div>
                                     </div>
