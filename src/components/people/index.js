@@ -3,9 +3,9 @@ import { TabContent, TabPane, Nav, NavItem, NavLink, } from 'reactstrap';
 import classnames from 'classnames';
 import {Link} from 'react-router-dom'
 import Sectiontitle from '../section-title'
-import bride1 from '../../images/groomsmen-bridesmaid/1.jpg'
+import bride1 from '../../images/groomsmen-bridesmaid/PhamHuuPhuoc.jpg'
 import bride2 from '../../images/groomsmen-bridesmaid/2.jpg'
-import bride3 from '../../images/groomsmen-bridesmaid/3.jpg'
+import bride3 from '../../images/groomsmen-bridesmaid/NguyenNhuSam.jpg'
 import bride4 from '../../images/groomsmen-bridesmaid/4.jpg'
 import bride5 from '../../images/groomsmen-bridesmaid/5.jpg'
 import bride6 from '../../images/groomsmen-bridesmaid/7.jpg'
@@ -76,7 +76,7 @@ const People = (props) => {
                                                 <img src={bride2} alt=""/>
                                                 <div className="social-list">
                                                     <ul>
-                                                        <li><Link to="/"><i className="fab fa-facebook-f"></i></Link></li>
+                                                        <li><a href='https://www.facebook.com/lamasia.lama' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
                                                         <li><Link to="/"><i className="fab fa-instagram"></i></Link></li>
                                                         <li><Link to="/"><i className="fab fa-tiktok"></i></Link></li>
                                                     </ul>
@@ -94,7 +94,7 @@ const People = (props) => {
                                                 <img src={bride3} alt=""/>
                                                 <div className="social-list">
                                                     <ul>
-                                                        <li><Link to="/"><i className="fab fa-facebook-f"></i></Link></li>
+                                                        <li><a href='https://www.facebook.com/nhusam.gsg/' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
                                                         <li><Link to="/"><i className="fab fa-instagram"></i></Link></li>
                                                         <li><Link to="/"><i className="fab fa-tiktok"></i></Link></li>
                                                     </ul>

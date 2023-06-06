@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import Sectiontitle from '../section-title'
 import couple1 from '../../images/couple/couple_1_500x500.jpg'
 import couple2 from '../../images/couple/couple_2_500x500.jpg'
-import couple3 from '../../images/couple/2.png'
+import couple3 from '../../images/couple/TraiTim.png'
 import './style.css'
 
 const Couple = () => {
@@ -30,7 +30,7 @@ const Couple = () => {
                                         </div>
                                         <div className="social-icon">
                                             <ul className="d-flex">
-                                                <li><Link to="/" ><span className="fab fa-facebook"></span></Link></li>
+                                                <li><a href='https://www.facebook.com/hao.hangucchinhhang' target='_blank' rel="noopener noreferrer"><span className="fab fa-facebook"></span></a></li>
                                                 <li><Link to='/'><span className="fab fa-tiktok"></span></Link></li>
                                                 <li><Link to='/'><span className="fab fa-linkedin"></span></Link></li>
                                             </ul>
