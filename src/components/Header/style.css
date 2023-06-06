@@ -21,18 +21,12 @@
 }
 .header ul li a{
     position: relative;
-
     color:#fff;
     text-decoration: none;
-    /* padding: 5px;
-    border-radius: 20px; */
+
 }
 
 
-/* .header ul li a:hover{
-    background: #fff;
-    color: #2b1055;
-} */
 .header ul li a::after {
     content: "";
     position: absolute;
@@ -47,7 +41,11 @@
 .header ul li a:hover::after{
     transform: scaleX(1);
 }
-
+.fixed-navbar.animated.active .header ul li a:hover{
+    background: -webkit-linear-gradient( #FFFFFF ,#FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+}
 .logo {
     margin-top: 20px;
 }

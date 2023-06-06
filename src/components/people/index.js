@@ -4,9 +4,9 @@ import classnames from 'classnames';
 import {Link} from 'react-router-dom'
 import Sectiontitle from '../section-title'
 import bride1 from '../../images/groomsmen-bridesmaid/PhamHuuPhuoc.jpg'
-import bride2 from '../../images/groomsmen-bridesmaid/2.jpg'
+import bride2 from '../../images/groomsmen-bridesmaid/LeThanhHuy.jpg'
 import bride3 from '../../images/groomsmen-bridesmaid/NguyenNhuSam.jpg'
-import bride4 from '../../images/groomsmen-bridesmaid/4.jpg'
+import bride4 from '../../images/groomsmen-bridesmaid/NguyenChiPhuong.jpg'
 import bride5 from '../../images/groomsmen-bridesmaid/5.jpg'
 import bride6 from '../../images/groomsmen-bridesmaid/6.jpg'
 import bride7 from '../../images/groomsmen-bridesmaid/NgocLinh_600x600.jpg'
@@ -78,15 +78,15 @@ const People = (props) => {
                                                 <img src={bride2} alt=""/>
                                                 <div className="social-list">
                                                     <ul>
-                                                        <li><a href='https://www.facebook.com/lamasia.lama' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
+                                                        <li><a href='https://www.facebook.com/lethanh.huy.359' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
                                                         <li><Link to="/"><i className="fab fa-instagram"></i></Link></li>
                                                         <li><Link to="/"><i className="fab fa-tiktok"></i></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Ngô Xuân Kiệt</h3>
-                                                <span>Best Friend</span>
+                                                <h3>Lê Thanh Huy</h3>
+                                                <span>Brother</span>
                                             </div>
                                         </div>
                                     </div>
@@ -104,7 +104,7 @@ const People = (props) => {
                                             </div>
                                             <div className="person-content">
                                                 <h3>Nguyễn Như Sâm</h3>
-                                                <span>Brother</span>
+                                                <span>Younger Brother</span>
                                             </div>
                                         </div>
                                     </div>
@@ -114,15 +114,15 @@ const People = (props) => {
                                                 <img src={bride4} alt=""/>
                                                 <div className="social-list">
                                                     <ul>
-                                                        <li><Link to="/"><i className="fab fa-facebook-f"></i></Link></li>
+                                                    <li><a href='https://www.facebook.com/phuongnguyenpop' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
                                                         <li><Link to="/"><i className="fab fa-instagram"></i></Link></li>
                                                         <li><Link to="/"><i className="fab fa-tiktok"></i></Link></li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Mr Abraham</h3>
-                                                <span>Best Friend</span>
+                                                <h3>Nguyễn Chí Phương</h3>
+                                                <span>Younger Brother</span>
                                             </div>
                                         </div>
                                     </div>

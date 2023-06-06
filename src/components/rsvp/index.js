@@ -84,7 +84,7 @@ class Rsvp extends Component {
                             <div className="rsvp-wrap">
                                 <div className="col-12">
                                     <div className="section-title section-title4 text-center">
-                                        <h2>Be Our Guest</h2>
+                                        <h2 style={{ color: "#fff" }}>Be Our Guest</h2>
                                         <p>Please reserve before December 15th, 2018.</p>
                                     </div>
                                 </div>
