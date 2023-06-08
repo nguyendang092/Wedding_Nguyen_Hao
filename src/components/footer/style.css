@@ -1,11 +1,11 @@
 .footer-area {
-  background: url(../../images/footer/footer3.png) no-repeat center center / cover;
+  background: url(../../images/footer/footer2.svg) no-repeat center center / cover;
   padding: 100px 0;
   position: relative;
   z-index: 1;
 }
 
-.footer-area:before {
+/* .footer-area:before {
   content: "";
   position: absolute;
   left: 0;
@@ -15,7 +15,7 @@
   background: #000;
   opacity: .5;
   z-index: -1;
-}
+} */
 
 .footer-content {
   margin: auto;
@@ -24,7 +24,7 @@
 
 
 
-.content-sub:before {
+/* .content-sub:before {
   position: absolute;
   content: "";
   left: -8px;
@@ -32,7 +32,7 @@
   width: 103%;
   height: 105%;
   border: 1px solid rgba(255,255,255, 0.4);
-}
+} */
 
 .content-sub h2 {
   font-size: 80px;
