@@ -114,7 +114,7 @@ const People = (props) => {
                                                 <img src={bride4} alt=""/>
                                                 <div className="social-list">
                                                     <ul>
-                                                    <li><a href='https://www.facebook.com/phuongnguyenpop' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
+                                                        <li><a href='https://www.facebook.com/phuongnguyenpop' target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a></li>
                                                         <li><Link to="/"><i className="fab fa-instagram"></i></Link></li>
                                                         <li><Link to="/"><i className="fab fa-tiktok"></i></Link></li>
                                                     </ul>

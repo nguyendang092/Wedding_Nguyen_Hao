@@ -291,9 +291,10 @@ Story-Area
     color: #333;
 }
 .story-area a.theme-btn:hover {
-    background: -webkit-linear-gradient( #ED7B84 ,#9055FF);
+    color: #fff;
+    /* background: -webkit-linear-gradient( #ED7B84 ,#9055FF);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 .story-area.story-style-2 a.theme-btn:hover{

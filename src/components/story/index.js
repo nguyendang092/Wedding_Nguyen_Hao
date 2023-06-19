@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import strory1 from '../../images/story/1.jpg'
-import strory2 from '../../images/story/2.jpg'
+import strory1 from '../../images/story/LanDauGapGo.png'
+import strory2 from '../../images/story/ChangDuongXaXoi.png'
 import strory3 from '../../images/story/3.jpg'
-import strory4 from '../../images/story/4.jpg'
+import strory4 from '../../images/story/NhungLanHonDoi.png'
 import './style.css'
 
 
