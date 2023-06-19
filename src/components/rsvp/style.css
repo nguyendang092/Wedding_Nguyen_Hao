@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Sedgwick+Ave&display=swap');
 
 .rsvp-area {
-    background: linear-gradient(rgba(100, 158, 147, 0.50), rgba(100, 158, 147, 0.50)), transparent url(../../images/guest/1.jpg) center center/cover no-repeat fixed;
+    background: linear-gradient(rgba(100, 158, 147, 0.50), rgba(100, 158, 147, 0.50)), transparent url(../../images/guest/backgroundWelcomeArea.png) center center/cover no-repeat fixed;
     padding: 100px 0;
     position: relative;
     background-attachment: fixed;
@@ -33,6 +33,10 @@
     border-radius: 5px;
 }
 
+.section-title h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
 .form-control {
     margin-top: 20px;
     font-size: 16px;
