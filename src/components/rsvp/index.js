@@ -85,7 +85,7 @@ class Rsvp extends Component {
                                 <div className="col-12">
                                     <div className="section-title section-title4 text-center">
                                         <h1>Be Our Guest</h1>
-                                        <p>Please reserve before December 15th, 2018.</p>
+                                        <p>Please reserve before June 25, 2023.</p>
                                     </div>
                                 </div>
                                 <form onSubmit={this.subimtHandler}>
@@ -96,7 +96,7 @@ class Rsvp extends Component {
                                                 <p>{error.name ? error.name : ''}</p>
                                             </div>
                                             <div className="col-12  col-sm-6">
-                                                <input type="text" placeholder="Cho mình xin email luôn nhen" onChange={this.changeHandler} value={email} id="email" name="email" />
+                                                <input type="text" placeholder="Email nữa!" onChange={this.changeHandler} value={email} id="email" name="email" />
                                                 <p>{error.email ? error.email : ''}</p>
                                             </div>
                                             <div className="col col-sm-6 col-12">

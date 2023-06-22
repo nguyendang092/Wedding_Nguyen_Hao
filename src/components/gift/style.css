@@ -6,10 +6,12 @@
     padding-bottom: 0;
 }
 .gift-area .section-title p {
-    max-width: 640px;
+    max-width: 740px;
     margin: 0 auto;
 }
-
+.section-title p {
+    padding-top: 0;
+}
 .gift-item {
     padding: 70px 0;
 }

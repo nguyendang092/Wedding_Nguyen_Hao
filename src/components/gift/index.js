@@ -48,8 +48,7 @@ class Gift extends Component {
                     <div className="col-12">
                       <div className="section-title text-center">
                           <h2>Thank you!</h2>
-                          <p>Lời đầu tiên, cám ơn các bạn đã chung vui cùng tụi mình. Để thêm phần đặc sắc thì các bạn nhớ banking cho mình nhé ! Nhớ banking cho 2 đứa mình thiệt là nhiều nhen. Cám ơn các tình yêu nhiều nhiều thiệt nhiều ! Yêu mọi người.</p>
-                          <h2>Tài khoản ngân hàng của vợ chồng mình nhen. Love</h2>
+                          <p>Lời đầu tiên, cám ơn bố mẹ những người đã yêu thương nuôi dạy mình khôn lớn và được như ngày hôm nay. Lời thứ hai, cám ơn các bạn đã chung vui cùng tụi mình. Lời cuối cùng, cám ơn các bạn đã gửi những lời chúc, những món quà tuyệt vời đến gia đình nhỏ của mình.</p>
                       </div>
                   </div>
                   <div className="row gift-item">
