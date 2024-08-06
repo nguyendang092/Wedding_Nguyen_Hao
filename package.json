@@ -1,5 +1,4 @@
 {
-  "homepage": "https://nguyendang092.github.io/Wedding_Nguyen_Hao",
   "name": "Nguyên - Hảo Wedding",
   "version": "0.1.0",
   "private": true,
@@ -22,6 +21,7 @@
     "reactstrap": "^8.2.0",
     "slick-carousel": "^1.8.1"
   },
+  "homepage": "https://nguyendang092.github.io/Wedding_Nguyen_Hao",
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
