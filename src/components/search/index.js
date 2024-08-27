@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 
 export default class Search extends Component {
-
     subimtHandler = (e) => {
         e.preventDefault();
     }
-    
     render() {
         return (
             <div>

@@ -4,13 +4,10 @@ import Sectiontitle from '../section-title'
 import strory1 from '../../images/events/LeCuoi.png'
 import strory2 from '../../images/events/TiecCuoi1.png'
 import strory3 from '../../images/events/TiecCuoi2.png'
-
 import './style.css'
 
 const Location = () => {
-    return(
-
-        
+    return(  
     <div id="event" className="service-area section-padding">
         <div className="container">
             <Sectiontitle section={'When & Where'}/>

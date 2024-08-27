@@ -1,9 +1,6 @@
 import React from 'react'
 import Particles from 'react-particles-js';
-
 import stockShape2 from '../../images/hero/icon.png'
-
-
 
 const PreviewHero = () => {
     return (
@@ -21,8 +18,6 @@ const PreviewHero = () => {
                       </div>
                   </div>
               </div>
-
-
             <Particles
                 className="particaleWrapper"
                 params={{
@@ -142,7 +137,6 @@ const PreviewHero = () => {
                                 sync: true
                             }
                         }
-
                     },
                     opacity: {
                         value: 0.4008530152163807,

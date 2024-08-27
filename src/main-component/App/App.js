@@ -7,9 +7,7 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import './App.css';
 
-
 const App = () => { 
-
   return (
     <div className="App">
        <Router>
@@ -22,9 +20,7 @@ const App = () => {
           <Footer/>
           <Scrollbar/>
       </Router>
-      
     </div>
   );
 }
-
 export default App;

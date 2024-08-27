@@ -54,5 +54,4 @@ class SimpleSlider2 extends Component {
       );
     }
   }
-
 export default SimpleSlider2;

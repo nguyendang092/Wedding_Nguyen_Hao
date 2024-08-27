@@ -3,8 +3,8 @@
   padding: 100px 0;
   position: relative;
   z-index: 1;
+  height: 250px;
 }
-
 /* .footer-area:before {
   content: "";
   position: absolute;
@@ -16,14 +16,10 @@
   opacity: .5;
   z-index: -1;
 } */
-
 .footer-content {
   margin: auto;
   text-align: center;
 }
-
-
-
 /* .content-sub:before {
   position: absolute;
   content: "";
@@ -33,13 +29,11 @@
   height: 105%;
   border: 1px solid rgba(255,255,255, 0.4);
 } */
-
 .content-sub h2 {
   font-size: 80px;
   font-family: 'Great Vibes', cursive;
   color: #fff;
 }
-
 .content-sub span {
   font-size: 30px;
   color: #dffff9;

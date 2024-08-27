@@ -4,28 +4,22 @@ import {Link} from 'react-router-dom'
 
 
 export default class MobileMenu2 extends Component {
-
     state = {
         isMenuShow: false,
         isOpen: false,
     }
-
     menuHandler = () => {
         this.setState({
             isMenuShow: !this.state.isMenuShow
         })
     }
-
     setIsOpen = () => {
         this.setState({
             isOpen: !this.state.isOpen
         })
     }
-
     render() {
-
         const { isMenuShow, isOpen } = this.state;
-
         return (
             <div>
                 <div className={`mobileMenu ${isMenuShow ? 'show' : ''}`}>
@@ -53,10 +47,8 @@ export default class MobileMenu2 extends Component {
                             <li><Link to='/home'>Rsvp</Link></li>
                             <li><Link to='/blog'>Blog</Link></li>
                             <li><Link to='/Blog-details'>Blog Details</Link></li>
-                    </ul>
-                    
+                    </ul>       
                 </div>
-
                 <div className="showmenu" onClick={this.menuHandler}><i className="fa fa-bars" aria-hidden="true"></i></div>         
             </div>
         )

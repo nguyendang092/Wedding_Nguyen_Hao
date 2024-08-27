@@ -14,5 +14,4 @@ const Sectiontitle = (props) => {
         </div>
     )
 }
-
 export default Sectiontitle;

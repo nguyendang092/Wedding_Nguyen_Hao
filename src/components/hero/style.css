@@ -1,7 +1,6 @@
 .slick-dots {
     bottom: 30px;
 }
-
 .slick-dots li button:before {
     font-size: 14px;
     color: #fff;
@@ -11,7 +10,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .item1{
     background: url(../../images/slider/bgrWedding1.png);
     height: 800px;
@@ -23,7 +21,6 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .item2{
     background: url(../../images/slider/bgrWedding2.jpg);
     height: 800px;
@@ -73,7 +70,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
-
 @keyframes animate {
   0% {
     background-position: -500%;
@@ -107,7 +103,6 @@
     margin-bottom: 0;
     font-family: 'Courier New', Courier, monospace;
 }
-
 @media(max-width:767px){
     .slide-content h2 {
         font-size: 35px;
@@ -136,76 +131,61 @@
     opacity: 1;
     visibility: visible;
 }
-
 .slick-prev {
   left: 25px;
 }
-
 .slick-prev:before {
   font-family: "FontAwesome";
   content: "\f0a5";
   opacity: 1;
   color: #fff;
 }
-
 .slick-next {
   right: 25px;
 }
-
 .slick-next:before {
   font-family: "FontAwesome";
   content: "\f0a4";
   opacity: 1;
   color: #fff;
 }
-
 .slick-prev:hover,
 .slick-next:hover {
   background: linear-gradient(#ED7B84 ,#9055FF);
   border: none;
 }
-
 .slick-prev:hover:before,
 .slick-next:hover:before {
   color: #fff;
 }
-
 @media (max-width:767px) {
     .slick-prev, .slick-next{
         display: none!important;
     }
 }
-
-
-
 @-webkit-keyframes pulse {
     from {
       -webkit-transform: scale3d(1, 1, 1);
       transform: scale3d(1, 1, 1);
     }
-  
     50% {
       -webkit-transform: scale3d(1.05, 1.05, 1.05);
       transform: scale3d(1.05, 1.05, 1.05);
     }
-  
     to {
       -webkit-transform: scale3d(1, 1, 1);
       transform: scale3d(1, 1, 1);
     }
-  }
-  
+  }  
   @keyframes pulse {
     from {
       -webkit-transform: scale3d(1, 1, 1);
       transform: scale3d(1, 1, 1);
     }
-  
     50% {
       -webkit-transform: scale3d(1.05, 1.05, 1.05);
       transform: scale3d(1.05, 1.05, 1.05);
     }
-  
     to {
       -webkit-transform: scale3d(1, 1, 1);
       transform: scale3d(1, 1, 1);

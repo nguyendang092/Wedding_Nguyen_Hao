@@ -6,7 +6,6 @@
     margin-bottom: 30px;
     overflow: hidden;
 }
-
 .image-box img{
     object-fit: cover;
 }
@@ -17,13 +16,11 @@
     -ms-transition: all 0.5s;
     transition: all 0.5s;
 }
-
 .gallery-img:hover img {
     -webkit-transform: scale(1.2) rotate(5deg);
     -ms-transform: scale(1.2) rotate(5deg);
     transform: scale(1.2) rotate(5deg);
 }
-
 .gallery-img:hover .image-box img{
  transform: none;
 }

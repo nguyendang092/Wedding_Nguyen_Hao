@@ -3,9 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import MobileMenu from '../../components/MobileMenu'
 import './style.css'
 const Header = () => {
-
     return(
-
         <div className="Header_root">
             <div className="header">
                 <div className="container">
@@ -33,9 +31,7 @@ const Header = () => {
                     </div>
                 </div>
              </div>
-      </div>
-        
+      </div> 
     )
 }
-
 export default Header;

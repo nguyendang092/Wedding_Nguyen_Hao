@@ -129,7 +129,8 @@ class Rsvp extends Component {
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
-                                                Gửi lời chúc</button>
+                                                Gửi lời chúc
+                                                </button>
                                         </div>
                                     </div>
                                 </form>
@@ -141,5 +142,4 @@ class Rsvp extends Component {
         )
     }
 }
-
 export default Rsvp;

@@ -14,8 +14,6 @@ welcome-area
     justify-content: center;
     flex-direction: column;
 }
-
-
 .welcome-area:before {
     content: "";
     position: absolute;
@@ -23,20 +21,17 @@ welcome-area
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(#000, #649e93);
+    background-image: -webkit-linear-gradient( #ED7B84 ,#9055FF);
     opacity: .8;
 }
-
 .welcome-content {
     text-align: center;
     padding: 100px 0;
 }
-
 .welcome-content h2 {
     font-size: 55px;
     color: #fff;
 }
-
 .welcome-content p {
     font-size: 18px;
     padding: 20px 50px 30px;
@@ -44,7 +39,6 @@ welcome-area
     max-width: 700px;
     margin: auto;
 }
-
 .btn a {
     display: inline-block;
     background: #fff;
@@ -55,17 +49,14 @@ welcome-area
     font-weight: 600;
     border-radius: 40px;
 }
-
 .btn a:hover {
-    background: #3f7267;
+    background: -webkit-linear-gradient( #ED7B84 ,#9055FF);
     color: #fff;
 }
-
 @media (max-width:767px){
     .welcome-content {
         padding: 60px 0 30px;
     }
-
     .welcome-content p {
         font-size: 14px;
         padding: 20px 10px 30px;

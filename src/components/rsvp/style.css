@@ -15,7 +15,6 @@
     margin-bottom: 0;
     padding-bottom: 0px;
 }
-
 .rsvp-wrap .section-title h2:before{
    display: none;
 }
@@ -32,7 +31,6 @@
     border: none;
     border-radius: 5px;
 }
-
 .section-title h1{
     font-family: 'Great Vibes', cursive;
     font-size: 50px;
@@ -42,7 +40,6 @@
     font-size: 16px;
     background: #fff;
 }
-
 select.form-control:not([size]):not([multiple]) {
     height: 50px;
     border-radius: 5px;
@@ -55,7 +52,6 @@ select.form-control:not([size]):not([multiple]) {
     background:#fff url(../../images/select-icon.png) no-repeat calc(100% - 15px) center;
     position: relative;
     border: none;
-
 }
 .contact-textarea {
     width: 100%;
@@ -66,7 +62,6 @@ select.form-control:not([size]):not([multiple]) {
     border: none;
     border-radius: 5px;
 }
-
 .contact-form p{
     color: red;
     font-size: 14px;
@@ -154,8 +149,6 @@ select.form-control:not([size]):not([multiple]) {
         right: 100%;
     }
 }
-
-
 .contact-form button span:nth-child(4){
     bottom: -100%;
     left: 0;
@@ -177,16 +170,13 @@ select.form-control:not([size]):not([multiple]) {
 .guest-2 button#submit {
     background: #9a8c40;
 }
-
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-
     color: #666;
     font-size: 14px;
 }
 ::-moz-placeholder {
     /* Firefox 19+ */
-
     color: #666;
     font-size: 14px;
 }

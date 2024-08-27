@@ -29,8 +29,7 @@ class SimpleSlider extends Component {
                         </div>
                         <div className="slide-text">
                           <p>Bride’s family - 25 June 2023 || Groom’s family - 8 July 2023</p>
-                        </div>
-                              
+                        </div>          
                   </div>
               </div>
           </div>
@@ -46,7 +45,6 @@ class SimpleSlider extends Component {
                           </div>
                           <div className="slide-text">
                           <p>Bride’s family - 25 June 2023 || Groom’s family - 8 July 2023</p>
-                          
                           </div>
                       </div>
                     </div>
@@ -56,5 +54,4 @@ class SimpleSlider extends Component {
       );
     }
   }
-
 export default SimpleSlider;

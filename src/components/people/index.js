@@ -17,15 +17,12 @@ import bride11 from '../../images/groomsmen-bridesmaid/Tram_600x600.jpg'
 import bride12 from '../../images/groomsmen-bridesmaid/YenNhi_600x600.jpg'
 
 import './style.css'
-
 const People = (props) => {
     const [activeTab, setActiveTab] = useState('1');
-
         const toggle = tab => {
           if(activeTab !== tab) setActiveTab(tab);
         }
     return(
-
         <div id="people" className="person-area section-padding pb-70">
             <div className="container">
                 <Sectiontitle section={'Trai Tài & Gái Sắc'}/>
@@ -139,8 +136,8 @@ const People = (props) => {
                                                 </div>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Rohan Mithy</h3>
-                                                <span>Brother</span>
+                                                <h3>Ngô Xuân Kiệt</h3>
+                                                <span>Best Friend</span>
                                             </div>
                                         </div>
                                     </div>
@@ -283,8 +280,6 @@ const People = (props) => {
                 </div>
             </div>
         </div>
-        
     )
 }
-
 export default People;

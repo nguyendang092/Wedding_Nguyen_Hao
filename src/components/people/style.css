@@ -5,27 +5,22 @@ person-area
 .person-area {
     background: #f9f9f9;
 }
-
 .person-item {
     padding-top: 50px;
 }
-
 .person-wrap {
     margin-bottom: 30px;
     overflow: hidden;
     z-index: -1;
 }
-
 .person-item2 {
     padding-top: 50px;
 }
-
 .person-img {
     position: relative;
     overflow: hidden;
     background-size: auto;
 }
-
 .person-img img {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -33,13 +28,11 @@ person-area
     -ms-transition: all 0.5s;
     transition: all 0.5s;
 }
-
 .person-wrap:hover .person-img img {
     -webkit-transform: scale(1.2) rotate(5deg);
     -ms-transform: scale(1.2) rotate(5deg);
     transform: scale(1.2) rotate(5deg);
 }
-
 .social-list {
     position: absolute;
     left: 0;
@@ -54,11 +47,9 @@ person-area
     text-align: center;
     transition: all .5s;
 }
-
 .person-wrap {
     overflow: hidden;
 }
-
 .person-wrap:hover .social-list {
     opacity: 1;
 }
@@ -72,7 +63,6 @@ person-area
     z-index: 1;
     mix-blend-mode: hard-light;
 }
-
 .social-list ul li {
     width: 40px;
     height: 40px;
@@ -83,34 +73,28 @@ person-area
     z-index: -1;
     opacity: 1;
 }
-
 .social-list ul li a {
     color: #fff;
     opacity: 1;
 }
-
 .person-content {
     text-align: center;
     background: #fff;
     padding: 10px;
 }
-
 .person-content h3 {
     font-size: 24px;
     color: #649e93;
     font-family: 'Muli', sans-serif;
 }
-
 .person-content span {
     font-size: 17px;
 }
-
 .person-btn ul {
     justify-content: center;
     margin-bottom: 30px!important;
     border-bottom: 1px solid #8ec7bc5e;
 }
-
 .person-btn ul li a.nav-link {
     border: none;
     display: inline-block;
