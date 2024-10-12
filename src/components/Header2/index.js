@@ -12,7 +12,7 @@ const Header2 = () => {
                     <div className="row">
                         <div className="col-lg-3 col-10">
                             <div className="logo">
-                                <h2><Link to='/home'>Nguyen<span><i className="fa fa-heart" aria-hidden="true"></i></span>Hao</Link></h2>
+                                <h2><Link to='/home'>Nguyên<span><i className="fa fa-heart" aria-hidden="true"></i></span>Hảo</Link></h2>
                             </div>
                         </div>
                         <div className="col-lg-9">

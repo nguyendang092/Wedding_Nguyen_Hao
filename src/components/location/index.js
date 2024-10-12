@@ -21,10 +21,10 @@ const Location = () => {
                         </div>
                         <div className="col-lg-7">
                             <div className="ceromony-content">
-                                <h3>Description</h3>
-                                <span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
-                                <span>256 Apay Road,Califonia Bong, London</span>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                                <h3>Chi tiết</h3>
+                                <span>Sunday, 25 June 2023, 11:00 AM</span>
+                                <span>Saturday, 08 July 07, 11:00 AM</span>
+                                <p>Cùng nhau đếm ngược thời gian cùng tụi mình để đón chờ những điều thú vị nha.</p>
                                 <Link to="/">See Location</Link>
                             </div>
                         </div>
@@ -35,10 +35,10 @@ const Location = () => {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="ceromony-content ceromony-content2">
-                            <h3>Description</h3>
+                            <h3>Chi tiết</h3>
                             <span>Sunday, 25 June 2023, 11:00 AM</span>
-                            <span>Trung Tam Van Hoa Cong Đong, Phuoc Binh, Long Thinh, Dong Nai</span>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                            <span>Trung Tâm Văn Hóa Cộng Đồng, Phước Bình, Long Thành, Đồng Nai</span>
+                            <p>Đây là địa điểm & thời gian tổ chức tiệc bên nhà gái. Mong sự hiện diện của tất cả mọi người là niềm vinh hạnh cho vợ chồng chúng mình, nhớ địa chỉ & thời gian để đến chung vui cùng vợ chồng chúng mình nha. Cám ơn tất cả mọi người.</p>
                             <a href='https://maps.app.goo.gl/gQNi65GFZE2pZ94P9?g_st=iz' target='_blank' rel="noopener noreferrer">See Location</a>
                         </div>
                     </div>
@@ -58,10 +58,10 @@ const Location = () => {
                     </div>
                     <div className="col-lg-7">
                         <div className="ceromony-content">
-                            <h3>Description</h3>
+                            <h3>Chi tiết</h3>
                             <span>Saturday, 08 July 07, 11:00 AM</span>
-                            <span>Nha hang tiec cuoi Quynh Anh, Van Gia</span>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                            <span>Nhà hàng tiệc cưới Quỳnh Anh, Vạn Giã</span>
+                            <p>Đây là địa điểm & thời gian tổ chức tiệc bên nhà trai. Mong sự hiện diện của tất cả mọi người là niềm vinh hạnh cho vợ chồng chúng mình, nhớ địa chỉ & thời gian để đến chung vui cùng vợ chồng chúng mình nha. Cám ơn tất cả mọi người.</p>
                             <a href='https://maps.app.goo.gl/zDeS4ojdqTGBa6cZ7' target='_blank' rel="noopener noreferrer">See Location</a>
                         </div>
                     </div>
